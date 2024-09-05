@@ -7,8 +7,85 @@
 a {
   color: inherit;
 }
+body {
+  background: #e9e9e9;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
 
 img,
 video {
   display: block;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.burger {
+  width: 30px;
+  height: 34.286px;
+  flex-shrink: 0;
+}
+
+.mid {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 32px;
+  padding: 20px 30px;
+  align-items: flex-start;
+  background: #fff;
+}
+
+.mid h1 {
+  font-size: 20px;
+}
+
+.right img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.loppe {
+  flex-shrink: 0;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.right h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
 }
